@@ -3,6 +3,8 @@ import pieceDatas from './components/OnePieceData'
 
 import PieceForm from './components/PieceForm'; 
 
+import './App.css'
+
 export default function App() { 
 
   const [pieceData,SetpieceData] = useState(pieceDatas) 
